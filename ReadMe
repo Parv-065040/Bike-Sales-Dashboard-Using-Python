@@ -1,0 +1,160 @@
+# Bike Sales Analytics Dashboard
+
+An interactive **Bike Sales Analytics Dashboard** built using **Python and Streamlit**. This project provides a comprehensive view of bike sales performance, customer demographics, and revenue patterns through dynamic filters, KPIs, and visual analytics.
+
+---
+
+## Project Overview
+
+This dashboard is designed to support **business intelligence and decision-making** by enabling users to explore bike sales data across multiple dimensions such as store location, bike model, customer demographics, and payment methods.
+
+The application focuses on:
+
+* Data-driven insights
+* Interactive filtering
+* Clear KPI reporting
+* Practical business analysis use cases
+
+---
+
+## Key Features
+
+* **Dynamic Filters**
+
+  * Store location
+  * Bike model
+  * Customer gender
+  * Age range
+  * Revenue range
+
+* **Key Performance Indicators (KPIs)**
+
+  * Total revenue
+  * Total orders
+  * Average order value
+  * Customer diversity metrics
+
+* **Sales & Revenue Analysis**
+
+  * Revenue by store location
+  * Revenue by bike model
+  * Revenue by payment method
+  * Revenue category segmentation
+
+* **Customer Insights**
+
+  * Gender-wise revenue analysis
+  * Age group performance
+  * Demographic breakdown
+
+* **Detailed Analysis Tables**
+
+  * Store performance summary
+  * Bike model analysis
+  * Customer demographic insights
+
+* **Data Exploration & Export**
+
+  * Raw data viewer
+  * Download filtered datasets
+  * Export summary statistics
+
+---
+
+## Technology Stack
+
+* **Programming Language:** Python
+* **Web Framework:** Streamlit
+* **Data Analysis:** Pandas, NumPy
+* **Caching:** Streamlit Cache
+* **Visualization:** Streamlit native charts
+
+---
+
+## Dataset
+
+The dashboard is designed to work with a cleaned bike sales dataset in CSV format.
+
+### Required Columns
+
+* `Store_Location`
+* `Bike_Model`
+* `Customer_Gender`
+* `Customer_Age`
+* `Revenue`
+* `Payment_Method`
+
+If no dataset is found, the application automatically generates **sample data** for demonstration purposes.
+
+---
+
+## Application Workflow
+
+1. Load and validate bike sales data from CSV
+2. Clean missing values and derive additional analytical fields
+3. Apply user-defined filters dynamically
+4. Compute KPIs and aggregated metrics
+5. Visualize insights using charts and tables
+6. Enable data export for further analysis
+
+---
+
+## How to Run the Dashboard
+
+### Step 1: Clone the Repository
+
+```bash
+git clone https://github.com/your-username/bike-sales-dashboard.git
+cd bike-sales-dashboard
+```
+
+### Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 3: Run the Streamlit Application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Business Use Cases
+
+* Retail performance monitoring
+* Store-level revenue comparison
+* Customer segmentation analysis
+* Sales strategy and pricing insights
+* Executive reporting dashboards
+
+---
+
+## Academic and Portfolio Context
+
+* **Project Type:** Business Intelligence / Data Analytics Dashboard
+* **Tools Demonstrated:** Data cleaning, KPI design, dashboard development
+* Suitable for academic evaluation and professional portfolio presentation
+
+---
+
+## Author
+
+Parv Jhamb
+PGDM – Big Data Analytics and Marketing
+
+---
+
+## Future Enhancements
+
+* Time-series sales analysis
+* Integration with databases (SQL)
+* Advanced visualizations using Plotly
+* Role-based dashboard views
+* Cloud deployment
+
+---
+
+This project demonstrates practical application of data analytics concepts using an interactive dashboarding approach.
